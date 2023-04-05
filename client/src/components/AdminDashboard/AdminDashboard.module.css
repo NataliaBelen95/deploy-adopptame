@@ -1,0 +1,21 @@
+
+
+.containerTable{
+    display: flex;
+    flex-direction: column;
+}
+
+.tabla{
+  margin: 50px;
+  border: 2px solid black;
+}
+
+ .columnsName {
+  font-weight: bolder;
+
+}
+
+.tituloTabla {
+    align-self: center;
+    
+}

@@ -1,0 +1,49 @@
+.container-pets {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    margin-top: 80px;
+}
+
+.containerFiltros {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #f6eded;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.containerFiltros select {
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    height: 35px;
+}
+
+.containerFiltros select option{
+    border: none;
+    border-radius: 10px;
+}
+
+.container-cards-pets-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: auto; */
+    margin-bottom: 0;
+}
+
+.container-cards-pets {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.pagination-wrapper {
+    margin-top: auto;
+}
+
+

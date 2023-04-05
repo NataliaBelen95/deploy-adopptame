@@ -1,0 +1,84 @@
+/* Estilos para el contenedor principal */
+.containerPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+  }
+  
+  /* Estilos para el título y descripción de la página */
+  #textPay {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la imagen */
+  #imgPay {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el formulario de pago */
+  .cardPay {
+    width: 400px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para la etiqueta del campo de tarjeta de crédito */
+  #labelPay {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el campo de tarjeta de crédito */
+  .form-control {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el campo de ingreso de monto a donar */
+  .input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el botón de pago */
+  .btnPay {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btnPay:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Estilos para el mensaje de error */
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }

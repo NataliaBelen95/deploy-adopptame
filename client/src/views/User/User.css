@@ -1,0 +1,82 @@
+.ContenedorUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.CartaUsuario {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 650px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imgUser {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+.imgUser img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.infoUser {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.infoUser h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.infoUser p {
+  margin-bottom: 5px;
+}
+
+.contenedorBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contenedorBtn button {
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background-color: #ff6b6b;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.contenedorBtn button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,85 @@
+.imagenCargada {
+    border-radius: 10px;
+    border: 2px solid #F6BE68;
+    max-height: 300px;
+}
+
+
+.error {
+    font-size: medium;
+    color: rgb(219, 27, 27);
+    /* font-weight: bold; */
+}
+
+.requirements {
+    color: rgb(63, 102, 72);
+    /* font-weight: bold; */
+    font-size: medium;
+}
+
+.container {
+    /* display: flex; */
+    /* margin: 25px; */
+    font-family: 'Arvo', serif;
+    /* width: 600px !important; */
+}
+
+
+.containerTitle {
+    flex: 1 1 50%;
+}
+
+.imgPerrito {
+    width: 40rem;
+    height: 30rem;
+}
+
+.containerForm {
+    width: 500px !important;
+    flex: 1 1 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+select {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid #F6BE68;
+    font-family: 'Arvo', serif;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+
+.tam {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: -20px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    font-family: 'Arvo', serif;
+}
+
+
+.fil {
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid #F6BE68;
+    font-family: 'Arvo', serif;
+}

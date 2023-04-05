@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.container {
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+    align-items: center;
+}
+
+
+
+.card {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(225, 225, 225, 0.681);
+    /* border: 1px solid black; */
+    width: 450px;
+    height: 450px;
+  
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 15px rgba(184, 184, 184, 0.6);
+    transition: all 0.4s ease-in-out, background-color 0.5s ease-in-out;
+    margin-top: 120px;
+    border-radius: 5px;
+    
+}
+
+/* .card:hover{
+   opacity: 0.9;
+} */
+.card div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+    
+  }
+
+.card img {
+    width: 100%;
+    height: 240px;
+    /* border-bottom: 1px solid black; */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.card p {
+    margin: 5px;
+}
+
+.card h2 {
+    margin: 5px;
+}
+
+/* button {
+    margin: 10px 0 15px 0;
+} */
+
+.card:hover {
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.8);
+    transform: translateY(-2px);
+    /* levantar un poco la card */
+}
+
+
+
+.spanDetail {
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    justify-content: center;
+    
+  }
+  
+  .pApaDetail {
+     font-size: 15px;
+     display: flex;
+     align-items: center;
+     
+  
+  }
+  
+  .linkDetalle {
+    color: rgb(228, 84, 84);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    }
+    
+    .divBotones{
+        margin: 15px;
+    }
+
+    .botonDetail, .botonDetailAyudame {
+        margin: 5px;
+        background-color: #2fcdcd;
+        border: none;
+        padding: 15px;
+        border-radius: 5px;
+        opacity: 0.5;
+        cursor: pointer;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        font-size: 15px;
+      }
+      .botonDetail:hover, .botonDetailAyudame:hover {
+        opacity: 0.9;
+        transform: translateY(-2px);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      }
+      .linkDetalle {
+        color: rgb(228, 84, 84);
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+      
+      .linkDetalle:hover {
+        transform: scale(1.1);
+      }
+
+
+    
+   

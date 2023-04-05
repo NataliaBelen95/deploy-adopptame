@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerForm {
+    align-items: center;
+    height: auto;
+    width: 350px;
+    min-height: 200px;
+    background-color: #e2ea87d7;
+    border-radius: 5px;
+    padding: 20px 25px;
+    flex-direction: column;
+    transition: 300ms ease-in-out;
+    margin: 0 !important;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6);
+}
+
+.tituloFormApa {
+    display: flex;
+    display: inline;
+    margin-bottom: 20px;
+
+}
+
+
+.imgPerrito {
+    width: 40rem;
+    height: 30rem;
+}
+
+/* .containerForm {
+    margin: 0 auto;
+    align-items: center;
+    flex: 1 1 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #9dae52;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-items: center;
+    align-self: center;
+} */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.containerInputs {
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'Arvo', serif;
+    margin-right: 10px;
+}
+
+.input {
+    font-size: 18px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid #F6BE68;
+    font-family: 'Arvo', serif;
+    z-index: 1;
+
+}
+
+.input:focus {
+    outline: none;
+}
+
+.label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    font-family: 'Arvo', serif;
+}
+
+.input:focus~label,
+.input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: black;
+}
+
+.buttonFormApa {
+    width: 150px;
+    margin: 35px auto 0;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background-color: #D0D0D7;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    transition: 300ms ease-in-out;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+}
+
+.buttonFormApa:hover {
+    background-color: #c1c1c3;
+}
+
+.buttonFormApa:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+}
+
+
+.errorInput {
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+}

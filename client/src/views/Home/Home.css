@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* carrusel */
+
+.containerCarruselpets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0;
+  height: 100vh;
+}
+
+
+
+.imgCarruselpets {
+  width: 800px;
+  height: 400px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.linkk{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonPets {
+  width: 70px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #f1c40f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+/* background: #FF5C00; */
+
+
+
+/* section donar */
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 70px;
+  background-color: #ebd3bc;
+  border-radius: 20px;
+
+}
+
+
+
+.divDonar {
+  flex: 1 1 50%;
+  text-align: start;
+  width: 50%;
+  margin: 20px;
+
+}
+
+
+.divDonar h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.divDonar p {
+  margin: 40px 0px;
+  font-size: 17px;
+
+}
+
+.alimentoPng {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+
+}
+
+.imgAlimento {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+
+.contVacuna {
+  display: flex;
+  justify-content: end;
+}
+
+.vacuna {
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+}
+
+.boton_home {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #E08122;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.boton_home:hover {
+  background-color: #f6be68;
+  color: #ffffff;
+
+}
+
+/* section saber mas */
+
+.saberMas {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 70px;
+  background-color: #dde67f;
+  border-radius: 20px;
+  /* opacity: 0; */
+
+  }
+  
+  .saberMas.active {
+  opacity: 1;
+  transform: translateY(0);
+  }
+  
+  .divSaberMas {
+  flex: 1 1 50%;
+  text-align: start;
+  width: 50%;
+  margin: 20px;
+  }
+  
+  .divSaberMas h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #4a4a4a;
+  }
+  
+  .divSaberMas p {
+  margin: 40px 0px;
+  font-size: 17px;
+  color: #4a4a4a;
+  line-height: 1.5;
+  }
+  
+  .contImg {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+  }
+  
+  .contImg img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  
+  .btns {
+    display: flex;
+    justify-content: flex-end;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #E08122;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btns:hover {
+    background-color: #f6be68;
+    color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+
+
+.dogPng {
+  position: absolute;
+  left: 550px;
+  top: 680px;
+
+}
+
+
+
+
+/* .donate-button {
+  background-color: #007BFF;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+

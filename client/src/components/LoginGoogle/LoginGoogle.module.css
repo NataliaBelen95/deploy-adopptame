@@ -1,0 +1,12 @@
+.container {
+    align-items: center;
+}
+
+.tituloLoginGoogle {
+    font-size: 15px;
+    margin: 5px
+}
+
+.divButton {
+    font-size: 20px;
+}

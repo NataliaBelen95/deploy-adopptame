@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    /* esto es para que los elementos no salgan de nuestro contenedor tambien */
+}
+
+nav {
+    background: #2fcdcd;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/* .link{
+    position: absolute;
+    padding: 20px 50px;
+} */
+
+.logo {
+    height: 70px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li {
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+li:active,
+li:hover {
+    background: #98e6e6;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Estilo de metodo de ingreso */
+nav ul ul {
+    position: absolute;
+    top: 80px;
+    display: none;
+    right: 5px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+nav ul li:hover>ul {
+    display: inherit;
+    background: #2fcdcd;
+
+
+}
+
+nav ul ul .liOp {
+    box-sizing: content-box;
+    width: 200px;
+    float: none;
+    display: list-item;
+    margin: 2px 2px;
+    height: 30px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+nav ul ul .liOp:hover {
+    background: #98e6e6;
+
+
+}
+
+/* nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 250px;
+} */
+
+.submenu {
+    margin-top: 0;
+    background: #98e6e6;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.liOp {
+    font-size: 14px;
+}
+
+.linkAbout {
+    color: white;
+
+}
+
+/* Estilos para el avatar */
+.avatar {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.avatar img {
+    position: absolute;
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.dropdown {
+    position: absolute;
+    top: 180%;
+    right: -13px;
+    width: 120px;
+    background-color: #f9f9f9;
+    background: #98e6e6;
+    z-index: 1;
+    display: none;
+    border-radius: 5px 0;
+}
+
+
+
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.dropdown-content a,
+.dropdown-content button {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+
+
+.hoverAvatar:hover .dropdown {
+    display: block;
+
+}
+
+.avatar:hover img {
+    opacity: 0.7;
+    /* Añadido para indicar que el avatar está siendo hover */
+}
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 5px 3px;
+    height: 20px;
+}
+
+
+.dropbtnPerfil {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 3px 2px;
+    height: 20px;
+}
+
+.dropbtnPerfil:hover, .dropbtn:hover{
+    background: #b1ffff;
+    
+}
+
+/* responsive */
+
+@media (max-width: 952px) {
+    .enlace {
+        padding-left: 20px;
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 850px) {
+
+
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2fcdcd;
+        top: 79px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 2;
+
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+
+    nav ul li {
+        font-size: 20px;
+    }
+
+    nav ul ul {
+        /* position: static; */
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    nav ul ul li {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    nav ul ul .liOp {
+        width: 60%;
+        padding: 10px 30px;
+        margin-left: 100px;
+        font-size: 11px;
+
+    }
+
+    nav ul li:hover>ul {
+        display: block;
+        position: static;
+        background: none;
+        box-shadow: none;
+    }
+
+    li:hover,
+    li:active {
+        background: none;
+        color: red;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}

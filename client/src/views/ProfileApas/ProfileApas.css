@@ -1,0 +1,144 @@
+.containerApaProfile{
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: blanchedalmond;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+}
+
+.containerTitleApa{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.containerApaProfile h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.imgApaProfile{
+  width: 60px;
+  height: 60px;
+
+}
+
+.botonesProfile{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.botonesApaProfile{
+  border: none;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 10px 5px;
+  background-color: rgb(66, 75, 251);
+}
+
+.letras{
+  color: white;
+}
+
+
+.containerBtnDonate {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .containerBtnDonate button {
+    background-color: rgb(0, 179, 255);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  .containerDescription {
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  
+  .containerDescription h4 {
+    margin: 5px 0;
+  }
+  
+  .containerDescription h4:last-of-type {
+    margin-bottom: 10px;
+  }
+
+  .containerDescription p {
+    text-align: justify;
+    font-size: 1.2rem;
+  margin-bottom: 20px;
+  }
+
+  .logoigfb{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 5px;
+  }
+
+
+  .containerCarruselperros{
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .slick-slide img {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .imgCarrusel{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+ 
+
+  .slick-prev:before .slick-next:before{
+    color: black;
+  }
+
+  .logomp{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+.rating{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.opinion{
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color:antiquewhite;
+  border-radius: 15px;
+}

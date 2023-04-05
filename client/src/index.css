@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.main {
+  flex: 1;
+}

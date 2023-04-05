@@ -1,0 +1,87 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6be68;
+    border-radius: 5px;
+    width: 240px;
+    height: 280px;
+    /* margin: 50px; */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.3);
+    margin: 10px 15px;
+}
+
+.img {
+    width: 240px;
+    height: 173px;
+    border-radius: 5px 5px 0 0;
+    /* border-bottom: 1px solid black; */
+}
+
+.link {
+    text-decoration: none;
+    color: #463231;
+    margin-bottom: 10px;
+    transition: 300ms;
+}
+
+.link:hover {
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card p,
+.card h3 {
+    margin: 2px;
+
+    /* padding: 5px */
+}
+
+.conoceme {
+    background-color: #f6be68;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .conoceme:hover {
+    background-color: #f2a04d;
+  }
+
+
+
+.card:hover {
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+    transform: translateY(-4px);
+    /* levantar un poco la card */
+    transition: all 0.3s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.botonFav {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .botonFav:hover {
+    transform: scale(1.2);
+  }
+
+  .btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+  }
